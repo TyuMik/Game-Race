@@ -1,11 +1,6 @@
 #pragma once
 #include "Air_Race.h"
-
-#ifdef RACELIBRARY_EXPORTS
-#define RLIB_API __declspec(dllexport)
-#else
-#define RLIB_API __declspec(dllimport)
-#endif
+#include "Spec.h"
 
 class RLIB_API Broom : public Air_Race {
 public:

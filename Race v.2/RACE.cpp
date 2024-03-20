@@ -17,6 +17,8 @@
 #include "Broom.h"
 #include "Carpet.h"
 
+#pragma warning (disable : 4251 )
+
 int main(int argc, char** argv)
 {
     setlocale(LC_ALL, "Russian");

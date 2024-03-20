@@ -143,6 +143,7 @@
     <ClInclude Include="Race.h" />
     <ClInclude Include="Race_Results.h" />
     <ClInclude Include="RapidSnickers.h" />
+    <ClInclude Include="Spec.h" />
     <ClInclude Include="Supplementary.h" />
   </ItemGroup>
   <ItemGroup>

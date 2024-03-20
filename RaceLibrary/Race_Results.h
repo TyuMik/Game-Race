@@ -1,11 +1,6 @@
 #pragma once
 #include <string>
-
-#ifdef RACELIBRARY_EXPORTS
-#define RLIB_API __declspec(dllexport)
-#else
-#define RLIB_API __declspec(dllimport)
-#endif
+#include "Spec.h"
 
 class RLIB_API Race_Results {
 protected:
